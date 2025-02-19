@@ -40,3 +40,72 @@ Ni kan se en enkel counter-exempel som redan använder Redux Toolkit.
    cd mobb-grupp-X
    npm install
    npm run dev
+
+
+## 💻 Uppgifter att välja mellan
+Varje grupp väljer **minst 1 av dessa uppgifter** att lösa tillsammans.  
+Hinner ni fler, välj gärna en till!
+
+---
+
+### 🟣 Uppgift 1: Counter med extra funktioner
+Utgå från starterkoden och bygg ut counter-funktionen med:
+
+- En **"dubbla" knapp** som multiplicerar värdet med 2.
+- En **"spara värde" knapp** som sparar aktuellt värde i en separat del av state (exempelvis `savedCount`).
+- Visa `savedCount` under räknaren.
+
+**Fokus:** Lära er förstå `slice` och actions.  
+**Diskutera:** Hur kan state delas upp smart?
+
+---
+
+### 🟢 Uppgift 2: Enkel TODO-app med Redux Toolkit
+Skapa en ny **todoSlice** med:
+
+- `todos: []` i initial state.
+- Action för att **lägga till en TODO** (med text och id).
+- Action för att **ta bort en TODO**.
+
+Bygg en enkel komponent där ni kan **lägga till och ta bort TODOs**.
+
+**Fokus:** Skapa ny slice, actions och reducers.  
+**Diskutera:** Hur strukturerar ni `store` med flera slices?
+
+---
+
+### 🔵 Uppgift 3: Tema-växlare (Light/Dark Mode)
+Skapa en slice med state:  
+`{ theme: 'light' }`
+
+- Lägg till action för att **växla mellan `'light'` och `'dark'`**.
+- Använd `theme`-state för att **ändra bakgrundsfärg på hela sidan**.
+
+**Fokus:** State som styr UI.  
+**Diskutera:** När är global state motiverat vs. lokalt state?
+
+---
+
+## 🎙️ Efter Lunch – Redovisning och Diskussion
+Varje grupp redovisar kort (**ca 5 min**):
+
+- **Vad ni valde att göra.**
+- **Hur ni löste det.**
+- **Vilka problem ni stötte på.**
+
+---
+
+## 📝 Tips under Passet
+- **Använd gärna Redux DevTools** för att se state-förändringar.
+- Behöver ni kolla dokumentation:
+  - [Redux Toolkit](https://redux-toolkit.js.org/)
+  - [React Docs](https://react.dev/)
+- **Fråga läraren** om ni kör fast!
+
+---
+
+## 📦 När ni är klara:
+- **Ladda gärna upp er kod på GitHub** om ni vill spara den.
+- **Reflektera över hur det var att arbeta i mobbprogrammering:**
+  - **Vad var bra?**
+  - **Vad var svårt?**
