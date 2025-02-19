@@ -29,18 +29,10 @@
 ## 🛠️ Förberedelser (innan 10.00)
 1. **Bestäm vem som börjar vara driver**.
 2. **Kloning av starterkod:**  
-   Vi använder denna färdiga mall:  
-   👉 [Redux Toolkit Starter Template](https://github.com/reduxjs/redux-templates/tree/master/packages/vite-template-redux)
-3. **Öppna projektet i VS Code och kör igång dev-servern.**
-Ni kan se en enkel counter-exempel som redan använder Redux Toolkit.
-
-   **Kom igång med koden:**
-   ```bash
-   npx degit reduxjs/redux-templates/vite-template-redux mobb-grupp-X
-   cd mobb-grupp-X
-   npm install
-   npm run dev
-
+   Vi använder npgon av dessa denna färdiga mallar:  
+   **Med TypeScript** [Redux Toolkit Starter Template](https://github.com/reduxjs/redux-templates/tree/master/packages/vite-template-redux)
+   **Med JavaScript:** [Redux essentials-counter-example](https://github.com/reduxjs/redux-essentials-counter-example) 
+4. **Öppna projektet i VS Code och kör igång dev-servern.**
 
 ## 💻 Uppgifter att välja mellan
 Varje grupp väljer **minst 1 av dessa uppgifter** att lösa tillsammans.  
