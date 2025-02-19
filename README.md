@@ -31,7 +31,7 @@
 2. **Kloning av starterkod:**  
    Vi använder denna färdiga mall:  
    👉 [Redux Toolkit Starter Template](https://github.com/reduxjs/redux-templates/tree/master/packages/vite-template-redux)
-3. ** Öppna projektet i VS Code och kör igång dev-servern.**
+3. **Öppna projektet i VS Code och kör igång dev-servern.**
 Ni kan se en enkel counter-exempel som redan använder Redux Toolkit.
 
    **Kom igång med koden:**
